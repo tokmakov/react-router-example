@@ -6,11 +6,11 @@
 
 Давайте вместо простого компонента Blog.js создадим в директории src/blog несколько других — BlogLayout.js, BlogIndex.js, BlogCategory.js и BlogArticle.js. Кроме того, создадим файл BlogData.js, где будем хранить категории и статьи блога. Но для начала изменим компонент App.js…
 
-[React Router, версия 6. Часть 3 из 4](https://tokmakov.msk.ru/blog/item/676)
+[React Router, версия 6. Часть 3 из 4](https://tokmakov.msk.ru/blog/item/677)
 
 Хук useHistory был удален из React Router 6, теперь вместо него теперь useNavigate. В принципе, использование этих двух хуков мало чем отличается. Хук возвращает функцию, которая в качестве первого аргумента принимает строку URL или целое число. Целое число может быть положительным (движение вперед по истории)…
 
-[React Router, версия 6. Часть 4 из 4](https://tokmakov.msk.ru/blog/item/676)
+[React Router, версия 6. Часть 4 из 4](https://tokmakov.msk.ru/blog/item/678)
 
 Хук useSearchParams предназначен для чтения и изменения строки запроса в URL для текущего маршрута. По аналогии с хуком useState возвращает значение и функцию для изменения этого значения. Значение — это объект URLSearchParams, у которого множество методов для работы с GET-параметрами (get, set, getAll, has, append, delete, …).
 
