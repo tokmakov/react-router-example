@@ -4,7 +4,7 @@
 
 [React Router, версия 6. Часть 2 из 4](https://tokmakov.msk.ru/blog/item/676)
 
-Давайте вместо простого компонента Blog.js создадим в директории src/blog несколько других — BlogLayout.js, BlogIndex.js, BlogCategory.js и BlogArticle.js. Кроме того, создадим файл BlogData.js, где будем хранить категории и статьи блога. Но для начала изменим компонент App.js…
+Давайте вместо простого компонента Blog.js создадим в директории src/blog несколько других — BlogLayout.js, BlogIndex.js, BlogCategory.js и BlogArticle.js. Кроме того, создадим файл с данными BlogData.js, где будем хранить категории и статьи блога. Но для начала изменим компонент App.js…
 
 [React Router, версия 6. Часть 3 из 4](https://tokmakov.msk.ru/blog/item/677)
 
